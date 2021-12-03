@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XavierLoaizaComplementario.RegUsuario"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="#2196F3" Padding="8" CornerRadius="0">
+                <Label Text="Registro de usuarios" HorizontalTextAlignment="Center" TextColor="White" FontSize="20"/>
+            </Frame>
+            <Entry x:Name="txtNombre" Placeholder="Nombre" Margin="50,10"></Entry>
+            <Entry x:Name="txtUsuario" Placeholder="Usuario" Margin="50,10"></Entry>
+            <Entry x:Name="txtContrasena" Placeholder="Contraseña" Margin="50,10"></Entry>
+            <Button x:Name="btnGuardar" Text="Guadar" Margin="90,5" Clicked="btnGuardar_Clicked"></Button>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
